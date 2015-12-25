@@ -1,0 +1,550 @@
+/* ==============================================
+@Author: Rushdi
+@URL: 
+
+Styles contents are outlined below
+ 
+1. Default Styles
+2. Navbar Styles
+3. Introduction
+4. Gallery
+5. Modal
+6. Footer
+7. 404
+	
+Responsive Styles
+a. Mobile and Tablet Screen
+b. Mobile Screen
+c. Tablet and Desktop Screen
+d. Tablet Screen
+e. Desktop Screen
+f. Desktop and Large Desktop Screen
+g. Large Desktop Screen
+h. Custom Screens
+
+
+Animations
+i. Animations
+=============================================== */
+
+/* =============================================
+1.Default Styles
+=============================================== */
+p{
+	font: 14px/20px 'hind', sans-serif;
+	margin: 10px 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p{
+	margin-bottom: 10px;
+}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong{
+	font-weight: 700;
+}
+h1, h2{
+font-size: 38px;
+line-height: 30px;
+
+}
+h1 strong, h2 strong, h1 span, h2 span{
+font-size: 50px;
+line-height: 33px;
+
+}
+h3{
+font-size: 28px;
+line-height: 24px;
+}
+h4{
+font-size: 24px;
+line-height: 20px;
+}
+h5{
+font-size: 20px;
+line-height: 18px;
+	}
+h6{
+font-size: 16px;
+line-height: 15px;
+}
+
+li {
+	list-style: none;
+}
+.wrapper {
+	overflow: hidden;
+}
+img {
+	width: 100%;
+}
+/* ==============================================
+2.Navbar Styles
+=============================================== */
+.navbar li a{
+	text-transform: capitalize;
+}
+.navbar-brand{
+ font-size: 24px;
+}
+/* ==============================================
+3.Introduction
+=============================================== */
+.intro {
+	margin-bottom: 20px;	
+}
+.intro .text {
+		padding-top: 100px;
+		padding-bottom: 20px;
+		padding-left: auto;
+		padding-right: auto;
+		border: 7px solid #3d3d3d;
+		background: #595959;
+	}
+.intro .face {
+	margin: 0px auto -100px;
+	text-align: center;
+	background: #eee;
+	width: 200px;
+	height: 200px;
+	border: 7px solid #3d3d3d;
+	border-radius: 50%;
+	position: relative;
+	padding: 10px;
+	
+}
+.intro .text .focus { 
+	min-height: 60px; 
+	margin: 10px; 
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+
+	
+
+}
+.focus h4, .focus h5 {
+		display: inline-block;
+		padding: 25px 0;
+		
+		line-height: 25px;
+		text-transform: capitalize;		
+		vertical-align: middle;
+		
+		
+	}
+
+.focus h4{margin-right: -4px;}
+.focus h5{padding: 0 5px;}
+.focus h4 span {
+		font-size: 50px;		
+		text-transform: uppercase;		
+	}
+.intro .face img, .intro img {
+	max-width: 100%;
+
+}
+
+.intro .text .about {
+	overflow: hidden;
+	height: 200px;	
+}
+
+.intro .text h2, .intro .text h3, .intro .text h4, .intro .text h5,  .intro .text div, .intro .text a {
+	text-align: center;
+	color: #fff;
+}
+.intro .text h2 span {
+	letter-spacing: 5px;
+}
+.intro .text p{
+	text-align: justify;
+	color: #fff;
+	padding: 0 10px;
+}
+.intro .text div a {
+	display: block;
+	text-decoration: none;
+	color: #aaa;
+}
+.intro .text div a:hover {
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.intro .text .icon i{
+	font-size: 28px;
+	font-weight: 700;
+
+}
+.intro .text .down:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+.intro .social {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.social a {
+	
+	margin: 5px;
+	background-color: #222222;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 40px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+
+}
+
+.social a i{
+	font-size: 25px;
+	line-height: 25px;	
+	vertical-align: middle;
+	padding: 5px;
+	line-height: normal;
+}
+
+.social a:hover i{
+	color: #222222;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.social a:hover {
+	background-color: #e2e2e2;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+/* ==============================================
+4.Gallery
+=============================================== */
+.gallery {
+margin-bottom: 20px;
+}
+.gallery .works {
+	border: 7px solid #3d3d3d;
+	margin: 5px auto;	
+	overflow: hidden;
+	padding: 3px;
+	display: flex;
+	position: relative;
+	
+}
+.gallery .works.rounded {
+
+}
+.gallery .works img, .gallery .works.rounded img {
+	margin:auto 0;	
+	max-width:100%;
+	border: 0;
+	position: relative;
+	padding: 0;
+}
+.gallery .works.rounded img {
+
+	border-radius: 50%;
+}
+
+.gallery .img_details {
+	margin: 0 auto;
+	padding: 10px;
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	display: block;
+	background: rgba(191, 191,191, 0.4);
+	opacity: 0;	
+	border: 1px solid #000;
+
+}
+.gallery .img_details > div {
+	
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.gallery .img_details > div > h4 {
+	color: #222;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 22px;
+    position: relative;    
+    top: calc(50% - 60px);
+}
+
+.gallery .img_details > div > ul {
+	margin: 0 auto !important;
+    width: 45%;
+    position: relative;
+    top: calc(50% - 65px);
+}
+
+.gallery .img_details > div > ul li{
+
+	float: left;
+	margin: 10px;
+	
+}
+.gallery .img_details > div > ul li > a{
+	font-size: 20px;
+	color: #fff;
+}
+
+.gallery .img_details > div > ul li > a:hover{
+	
+	color: #3d3d3d;
+}
+
+/* ==============================================
+5.Modal
+=============================================== */
+.modal-header,.modal-footer, .modal-footer button {
+    background-color: #222;
+    color: #e4e4e4;
+}
+.modal-header .close{
+	color: #fff;
+}
+
+
+/* ==============================================
+Footer
+=============================================== */
+footer {
+	margin-top: 20px;
+	padding-top: 20px;
+
+}
+footer {
+	background: #3d3d3d;
+}
+footer .logo, footer .logo a, footer .links, footer .map, footer .contact, footer h3, footer h4, footer h5, footer h6, footer legend{
+		color: #e5e5e5;		
+}
+ footer h3, footer h4, footer h5, footer h6 {
+ 	padding-bottom:10px;
+ 	margin-bottom:10px; 
+ 	font-weight: 400;
+ }
+
+
+footer .logo, footer .links, footer .location, footer .contact, footer .logo .content, footer .links .content, footer .location .content, footer .contact .content{
+	margin-top: 20px;
+}
+
+ footer .logo a {
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	text-align: center;
+
+ }
+footer .links ul li, footer .links ul li a {
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	padding: 3px;
+}
+footer .links i {
+	padding:0 5px;
+}
+
+footer .logo a:hover, footer .links ul li a:hover {
+	color: #d3d3d3;
+	background: #4e4e4e;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition:all .5s ease;
+
+}
+
+footer .copyright {
+	background:#222222;
+	margin: 20px 0 0;
+	color: #9b9b9b;
+
+}
+footer .copyright p {
+	margin: 0;
+	text-align: center;
+	padding: 15px;
+	font: #fff;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+footer .contact form i{
+	font-size: 20px;
+}
+/* ==============================================
+Scroll Up
+=============================================== */
+.scroll_up {
+	position: fixed; 	
+	right:20px;
+	bottom: 70px;
+	margin: 5px;
+	padding: 12px;
+	background: #3d3d3d;
+	border-radius: 10%;
+	border: 3px solid #4e4e4e;
+	cursor: pointer;
+	
+}
+.scroll_up.hide { display: none; }
+.scroll_up a {
+	display: block;
+	padding: 12px;
+	background: #3d3d3d;
+	border-radius: 10%;
+	border: 3px solid #4e4e4e;
+	
+}
+.scroll_up a:hover {
+	background: #4e4e4e;
+	border-color:#3d3d3d;
+	color: #eee;
+
+}
+.scroll_up i {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 15px;
+	color: #aaa;
+}
+
+
+/* ==============================================
+404
+=============================================== */
+.error_code {
+vertical-align: middle;
+}
+
+.error_msg {
+	text-align: center;
+}
+/* ==============================================
+31. Mobile Screen
+=============================================== */
+@media screen and (max-width:767px) {
+	.gallery .works {
+		width: 100%;
+		border: 0;
+		display: block;
+	
+	}
+	.gallery .works img {
+		border: 4px solid #3d3d3d;
+		border-radius: 0;
+		padding: 6px;
+	}
+	.gallery .img_details > div > ul {
+		top: calc(80% - 65px);
+		width: auto;
+	}
+	.gallery .img_details > div > h4 {
+		top: calc(90% - 65px);
+	}
+	.gallery .img_details > div > ul li {
+		margin: 5px auto;
+	}
+	.gallery .img_details > div > ul li a{
+		padding:0  5px;
+	}
+.intro .text .focus { margin:10px; }
+.focus h4, .focus h5 {
+	font-size: 21px; 
+}
+.focus h4 span { font-size: 45px; }
+.focus h4 { margin-right: -4px; }
+.focus h5 { padding: 5px 20px; }
+
+
+
+}
+/* ==============================================
+32. Tablet and Desktop Screen
+=============================================== */
+@media screen and (min-width:768px) {
+	.navbar {
+    	border-radius:0;
+	}
+}
+
+
+/* ==============================================
+33. Tablet Screen
+=============================================== */
+@media screen and (min-width:768px) and (max-width:991px) {
+	.gallery .works {
+		width: 300px;
+		height: 300px;
+	}
+
+	.focus h5 { padding: 5px 20px; }
+}
+/* ==============================================
+34. Desktop Screen
+=============================================== */
+@media screen and (min-width:992px) and (max-width:1199px) {
+	.gallery .works {
+		width: 300px;
+		height: 300px;
+	}
+	.focus h4, .focus h5 {
+		display: inline-block;
+		font-size: 20px;
+			
+	}
+
+	.focus h4 span {
+		font-size: 40px;		
+	}
+	
+}
+
+/* ==============================================
+36. Large Desktop Screen
+
+=============================================== */
+@media screen and (min-width:1200px) {
+
+.gallery .works {
+		width: 400px;
+		height: 400px;
+	}
+
+.intro .text h5 { padding-left: 15px; line-height: 35px; font-size: 22px; }
+.intro .text h4 { line-height: 51px; font-size: 50px; }
+
+}
+
+/* ==============================================
+37. Custom Screens
+=============================================== */
+
+@media screen and (min-width:481px) and (max-width:989px) {
+
+	.intro .text .focus { margin: 0 20%; }
+
+}
+
+
