@@ -44,7 +44,7 @@
 <!-- Google Font Raleway -->
 	<link href="http://fonts.googleapis.com/css?family=Raleway:200,300,600" rel="stylesheet" type="text/css">
 <!-- bootstrap styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min2.css">
 <!-- animate-->
 	<link rel="stylesheet" href="css/animate.css">
 <!-- waypoints styles for skills animation -->
@@ -62,7 +62,7 @@
 <!-- <div id="preloader_3"></div> -->
 <section class="wrapper style">
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -79,23 +79,20 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		          
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+		        <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 					
 		        </li>
 		        <li class="dropdown dropdown-nested"><a href="#">Samples</a>
 				  	<ul class="dropdown-menu">
-					  <li><a href="index.html">Web Design</a></li>
+					  <li><a href="./index.html">Web Design</a></li>
 					  <li><a href="home_layout_2.html">Graphics</a></li>
 					  <li><a href="home_layout_3.html">others</a></li>
 					</ul>
 				  </li>
-		        <li class="dropdown"><a href="#">resume</a></li>
-		        <li class="dropdown"><a href="#">Blog</a></li>
-		        <li class="dropdown"><a href="#">Contact</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shortcodes</a>
-		          
-		        </li>
+		        <li><a href="#">resume</a></li>
+		        <li><a href="#">Blog</a></li>
+		        <li><a href="#">Contact</a></li>
+		        <li><a href="./styles.html">Styles</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -104,6 +101,75 @@
 	<section class="content">
 		<div class="container">
 			<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Library</a></li>
+				<li class="active">Data</li>
+			</ol>
+			<div class="jumbotron">
+				<h1>Hello, world!</h1>
+				<p>Lorem ipsum dolor sit amet, erat ornare non</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+			</div>
+			<h1>Heading 1 <span class="label label-default">Label</span></h1>
+			<h2>Heading 2 <span class="label label-default">Label</span></h2>
+			<h3>Heading 3 <span class="label label-default">Label</span></h3>
+			<h4>Heading 4 <span class="label label-default">Label</span></h4>
+			<h5>Heading 5 <span class="label label-default">Label</span></h5>
+			<h6>Heading 6 <span class="label label-default">Label</span></h6>
+
+			<p> <strong>This is a paragraph:</strong> Lorem ipsum dolor sit amet, erat ornare non, nisl suscipit mauris. Sapien ac vestibulum, sollicitudin a, pretium penatibus. Volutpat integer pede, mauris litora. Sapiente vestibulum. In phasellus sed. Mollis fusce, maecenas penatibus per. Justo vivamus elit.</p>
+
+			<table class="table">
+				<tr class="active">
+					<td>1</td>
+					<td>Row active</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="success">
+					<td>2</td>
+					<td>Row success</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="warning">
+					<td>3</td>
+					<td>Row warning</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="danger">
+					<td>4</td>
+					<td>Row danger</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class="info">
+					<td>5</td>
+					<td>Row info</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td class="active">Cell Active</td>
+					<td class="success">Cell success</td>
+					<td class="warning">Cell Warning</td>
+					<td class="danger">Cell Danger</td>
+					<td class="info">Cell Info</td>
+				</tr>
+			</table>
 				<nav>
 				<ul class="pagination">
 				<li>
@@ -123,6 +189,22 @@
 				</li>
 				</ul>
 				</nav>	
+
+				<nav>
+					<ul class="pager">
+						<li><a href="#">Previous</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</nav>
+
+				<nav>
+					<ul class="pager">
+						<li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+						<li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+					</ul>
+				</nav>
+
+				<div class="well">This is a well.....</div>
 			</div>
 		</div>
 	</section>
