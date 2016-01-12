@@ -57,6 +57,16 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 <!-- main styles -->
 	<link rel="stylesheet" href="style.css">
+<script>
+	// $(window).load(function() {
+	// 	$("#preloader_3").fadeOut("fast");
+	// });
+
+	window.addEventListener("load", function(){
+		var load_screen = document.getElementById("load_screen");
+		document.body.removeChild(load_screen);
+	});
+</script> 
 </head>
 <body>
 <div class="pre-wrapper" id="load_screen"><div id="preloader_3"></div></div>
@@ -472,16 +482,7 @@
 
 <!-- jQuery -->
 	<script type="text/javascript" src="js/jquery.js"></script>
-<script>
-	// $(window).load(function() {
-	// 	$("#preloader_3").fadeOut("fast");
-	// });
 
-	window.addEventListener("load", function(){
-		var load_screen = document.getElementById("load_screen");
-		document.body.removeChild(load_screen);
-	});
-</script> 
 <!-- jQuery easing -->
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <!-- bootstrap -->
