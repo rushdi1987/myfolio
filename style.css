@@ -52,24 +52,22 @@ font-size: 38px;
 }
 h1 strong, h2 strong, h1 span, h2 span{
 font-size: 50px;
-line-height: 33px;
-
 }
 h3{
 font-size: 28px;
-line-height: 24px;
+line-height: 35px;
 }
 h4{
 font-size: 24px;
-line-height: 20px;
+line-height: 30px;
 }
 h5{
 font-size: 20px;
-line-height: 18px;
+line-height: 25px;
 	}
 h6{
 font-size: 16px;
-line-height: 15px;
+line-height: 20px;
 }
 
 li {
@@ -155,16 +153,28 @@ img {
 .intro .text h2, .intro .text h3, .intro .text h4, .intro .text h5,  .intro .text div, .intro .text a {
 	text-align: center;
 	color: #fff;
+	padding: 0 5px;
+}
+.intro .about h2, .intro.about h3, .intro .about h4,
+.intro.about h5, .intro .about h6,  .intro.about div,
+.intro .about ul, .intro .about a {
+	text-align: left;
+	color: #fff;
+}
+.intro .about ul{
+	padding-left: 15px;
+	color: #efefef;
 }
 .intro .text h2 span {
 	letter-spacing: 5px;
 }
 .intro .text p{
 	text-align: justify;
-	color: #fff;
+	color: #efefef;
 	padding: 0 10px;
 	line-height: 20px;
 }
+
 .intro .text div a {
 	display: block;
 	text-decoration: none;
@@ -258,7 +268,7 @@ margin-bottom: 20px;
 	border-radius: 50%;
 }
 
-.gallery .img_details {
+.gallery .img_about {
 	margin: 0 auto;
 	padding: 10px;
 	width: 90%;

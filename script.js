@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 
 	$( ".down" ).click(function() {
 		$( ".about" ).animate({
-			height:500
+			height:900
 		}, 3000);
 		
 	});
