@@ -21,11 +21,11 @@ jQuery(document).ready(function($) {
      /* ===============================================
      Menu Active Class
      =============================================== */
-     $('ul.nav > li').click(function (e) {
-            e.preventDefault();
-            $('ul.nav > li').removeClass('active');
-            $(this).addClass('active');                
-        });   
+     // $('ul.nav > li').click(function (e) {
+     //        e.preventDefault();
+     //        $('ul.nav > li').removeClass('active');
+     //        $(this).addClass('active');                
+     //    });   
 
 
      /* ===============================================
