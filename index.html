@@ -59,7 +59,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="pre-wrapper"><div id="preloader_3"></div></div>
+<div class="pre-wrapper" id="load_screen"><div id="preloader_3"></div></div>
 <section class="wrapper style">
 	<header>
 		<nav class="navbar navbar-inverse">
@@ -473,8 +473,13 @@
 <!-- jQuery -->
 	<script type="text/javascript" src="js/jquery.js"></script>
 <script>
-	$(window).load(function() {
-		$("#preloader_3").fadeOut("fast");
+	// $(window).load(function() {
+	// 	$("#preloader_3").fadeOut("fast");
+	// });
+
+	window.addEventListener("load", function(){
+		var load_screen = document.getElementById("load_screen");
+		document.body.removeChild(load_screen);
 	});
 </script> 
 <!-- jQuery easing -->
