@@ -1,0 +1,73 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -131,16 +131,66 @@
+ 							</div>
+ 							
+ 							<div class="about"><p>This is my protfolio and this protfolio is also a prototype.</p>
+-							<p>Lorem ipsum dolor sit amet, erat ornare non, nisl suscipit mauris. Sapien ac vestibulum, sollicitudin a, pretium penatibus. Volutpat integer pede, mauris litora. Sapiente vestibulum. In phasellus sed. Mollis fusce, maecenas penatibus per. Justo vivamus elit.</p>
+-							<p>Convallis aliquam urna, laoreet dolor, tristique ut consectetuer. Magnam molestie ut, odio lacinia nunc, mus in libero. Nunc id integer. Vitae volutpat, ligula ac. Vitae cursus, etiam parturient, mauris et ac. Magnis ante, est non, iaculis ac morbi. Lobortis sed. Ante neque aut, impedit ligula mus.</p>
++							<p><h6>Skills</h6>
++								<ul>
++									<li><i class="fa fa-check"></i>Wordpress</li>     
++									<li><i class="fa fa-check"></i>Php</li>     
++									<li><i class="fa fa-check"></i>MySql</li>     
++									<li><i class="fa fa-check"></i>Javascript</li>    
++									<li><i class="fa fa-check"></i>Jquery</li>     
++									<li><i class="fa fa-check"></i>Html/Xhtml    </li> 
++									<li><i class="fa fa-check"></i>Css</li>
++									<li><i class="fa fa-check"></i>Bootstrap</li>
++								</ul>
++							</p>
++							<p><h6>EXPERIENCE DETAILS</h6>
++
++								<strong>SOFTNIO</strong><br>
++									(Jan, 2014 - Oct, 2014)<br>
++									West kafrul, Mirpur	<br>	
++									Web Developer
++								<ul>
++									<li><i class="fa fa-check"></i>Converting PSD to Wordpress.</li> 
++									<li><i class="fa fa-check"></i>Existing site maintenance.</li> 
++									<li><i class="fa fa-check"></i>Premium theme customization. </li> 
++									<li><i class="fa fa-check"></i>Make Wordpress Widget </li> 
++									<li><i class="fa fa-check"></i>Cross Browser site Correction</li> 	
++									<li><i class="fa fa-check"></i>Creating responsive site</li> 
++								</ul>
++							</p>
++							<p>
++								<strong>ELANCE</strong><br>
++									(Apr, 2013 - Aug, 2014)<br>
++									Web Designer & Developer 
++								<ul>
++									<li><i class="fa fa-check"></i>Photoshop web design.</li> 
++									<li><i class="fa fa-check"></i>Psd to wordpress.</li> 
++									<li><i class="fa fa-check"></i>Wordpress development.</li>				 
++								</ul>
++							</p>
++							<p>
++								<strong>CREATIVES LAB</strong><br>
++									 (Jan, 2012 - Feb, 2013) <br>
++									 Agrabad, Chittagong<br>
++									Web Designer & Developer 
++								<ul>
++									<li><i class="fa fa-check"></i>Creating website layout in Photoshop </li> 
++									<li><i class="fa fa-check"></i>Psd to HTML conversion</li> 
++									<li><i class="fa fa-check"></i>HTML coding and CSS styling</li>				 
++								</ul>
++							</p>
++							<p><h6>Contact Me</h6>
++								<strong>E: rushdi3000@gmail.com</strong>
++								<strong>M: 018 58  96 49 25</strong>
++							</p>
+ 							</div>
+ 							<div class="icon down"><i class="fa fa-angle-double-down"></i></div>
+ 						</div>
+ 						<div class="social">
+ 						<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>			
+-						<a href="#" target="_blank"><i class="fa fa-twitter"></i>	</a>			
+-						<a href="#" target="_blank"><i class="fa fa-dribbble"></i>	</a>			
+-						<a href="#" target="_blank"><i class="fa fa-instagram"></i> </a><br/>			
++						<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>			
++						<a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>			
++						<a href="#" target="_blank"><i class="fa fa-instagram"></i></a><br/>			
+ 						<a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+ 						<a href="https://github.com/rushdi1987" target="_blank"><i class="fa fa-github"></i></a>
+ 					</div>
