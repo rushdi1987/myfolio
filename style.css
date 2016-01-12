@@ -11,6 +11,7 @@ Styles contents are outlined below
 5. Modal
 6. Footer
 7. 404
+8. Jumbo
 	
 Responsive Styles
 a. Mobile and Tablet Screen
@@ -31,7 +32,7 @@ i. Animations
 1.Default Styles
 =============================================== */
 p{
-	font: 14px/20px 'hind', sans-serif;
+	font: 14px/25px 'hind', sans-serif;
 	margin: 10px 0;
 }
 h1, h2, h3, h4, h5, h6{
@@ -162,6 +163,7 @@ img {
 	text-align: justify;
 	color: #fff;
 	padding: 0 10px;
+	line-height: 20px;
 }
 .intro .text div a {
 	display: block;
